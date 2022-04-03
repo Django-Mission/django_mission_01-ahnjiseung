@@ -1,0 +1,33 @@
+# Packaging
+*.pyc
+__pycache__
+*.egg-info
+/dist/
+/build/
+/node_modules/
+
+# venv
+/bin/
+/lib/
+/etc/
+/share
+/pyvenv.cfg
+/pip-selfcheck.json
+
+# Vagrant
+.vagrant
+
+# Temporary/OS files
+*.swp
+*.swo
+*.*~
+.~lock.*
+*.DS_Store
+.python-version
+
+# IDE files
+.project
+.pydevproject
+.settings
+.idea
+.vscode
