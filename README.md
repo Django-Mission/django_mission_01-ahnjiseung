@@ -1,2 +1,12 @@
-# django_mission_01-ahnjiseung
-# django_mission_01-ahnjiseung
+# [1주차 학습 과제]
+## 과제 : 로또 번호 추출기 
+
+* Basic : 한세트의 로또번호 랜덤 샘플링 결과 출력
+* Challenge : 사용자 입력 만큼의 로또 번호 세트 샘플링 결과 출력
+
+## 구성
+1. 최초 페이지에서 Basic, challenge 선택
+2. Basic, 한개 세트 추출 결과
+3. Challenge, 사용자 입력 세트 만큼 로또 번호 추출 결과 출력
+4. Challenge의 경우, 되돌아가기 버튼을 통해 세트 수 입력 페이지 이동
+5. 페이지 최상단 로또번호추출기 텍스트를 선택하면 최초 Basic, challenge 선택 화면 이동 
