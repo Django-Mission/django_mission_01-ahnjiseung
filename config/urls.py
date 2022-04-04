@@ -15,11 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from demos.views import calculator, lotto_basic, lotto_challenge, index, lotto_result
+from demos.views import lotto_basic, lotto_challenge, index, lotto_result
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('calculator/', calculator),
     path('', index),
     path('lotto/basic/', lotto_basic),
     path('lotto/challenge/', lotto_challenge),
